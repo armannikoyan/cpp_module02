@@ -6,7 +6,7 @@
 /*   By: anikoyan <anikoyan@student.42yerevan.am>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 18:26:14 by anikoyan          #+#    #+#             */
-/*   Updated: 2025/04/30 22:49:00 by anikoyan         ###   ########.fr       */
+/*   Updated: 2025/05/01 18:38:12 by anikoyan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ Fixed::Fixed(const int value)
 
 Fixed::Fixed(const float value)
 {
-  fp_value_ = std::roundf(value * (1 << fp_fraction_));
+  fp_value_ = roundf(value * (1 << fp_fraction_));
 }
 
 Fixed::~Fixed() {}
