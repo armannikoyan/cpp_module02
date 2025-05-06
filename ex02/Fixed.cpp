@@ -6,7 +6,7 @@
 /*   By: anikoyan <anikoyan@student.42yerevan.am>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 18:26:14 by anikoyan          #+#    #+#             */
-/*   Updated: 2025/05/01 18:38:12 by anikoyan         ###   ########.fr       */
+/*   Updated: 2025/05/06 19:47:53 by anikoyan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,7 +115,7 @@ Fixed& Fixed::operator++()
 
 Fixed& Fixed::operator--()
 {
-  ++fp_value_;
+  --fp_value_;
   return *this;
 }
 
